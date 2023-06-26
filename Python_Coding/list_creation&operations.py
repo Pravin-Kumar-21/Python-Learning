@@ -1,0 +1,12 @@
+fruit=["Apple","Banana","Cherry","Grapes","Mango","Watermelon","Pineapple"]
+print(fruit,"\n\n",len(fruit),"\n")
+fruit.append("Kiwi")
+print(fruit,"\n\n")
+fruit.extend(["Litchi","Orange","Pomegranate"])
+print(fruit,"\n\n")
+fruit.insert(3,"Sweet Potato")
+print(fruit,"\n\n")
+fruit.remove("Kiwi")
+print(fruit,"\n\n")
+fruit.pop(0)
+print(fruit)

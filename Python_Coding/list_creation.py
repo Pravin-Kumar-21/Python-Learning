@@ -1,0 +1,11 @@
+fruit=["Apple","Banana","Cherry","Grapes","Mango","Watermelon","Pineapple"]
+print(fruit)
+fruit.append("Kiwi")
+print(fruit)
+fruit.extend(["Litchi","Orange","Pomegranate"])
+print(fruit)
+fruit.insert(3,"Sweet Potato")
+print(fruit)
+fruit.remove("Kiwi")
+fruit.pop(0)
+print(fruit)
